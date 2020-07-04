@@ -1,11 +1,17 @@
 import React from "react";
 const Header = () => {
   return (
+
     <>
-      <div className="header">
-        <p>Header Component</p>
-      </div>
+      <header className='header'>
+
+        <div className='header_container'>
+
+        </div>
+        
+      </header>
     </>
+
   );
 };
 
