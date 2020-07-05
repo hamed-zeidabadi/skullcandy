@@ -3,7 +3,9 @@ const Footer = () => {
   return (
     <>
      <footer className='footer'>
-
+      <section className='footer_container'>
+        
+      </section>
      </footer>
     </>
   );
