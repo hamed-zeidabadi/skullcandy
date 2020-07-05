@@ -14,5 +14,43 @@
   justify-content: space-between;
   padding: 2em;
 
+
+
+
+  &_social_media{
+
+    display: flex;
+
+   &_icons{
+
+    // سلام حامد جان نمیدونم چرا دیسپلی فلکس اعمال نمیشه به این کلاس
+
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  
+   }
+   
+   & h6{
+    
+   }
+
+   & ul {
+    display: flex;
+
+  }
+
+  & li {
+    list-style: none;
+    margin: 0 15px 0 15px;
+    & svg {
+      font-size: 1.3em;
+    }
+  }
+
+
+
+  }
+
 }
 
