@@ -9,7 +9,11 @@ const Footer = () => {
 
         <div className='footer_container_sign_up'>اول گوش کنید ...</div>
 
-        <div className='footer_container_info'> نقشه سایت</div>
+        <div className='footer_container_info'>
+          <div className="footer_container_info_right">a</div>
+          <div className="footer_container_info_middle">b</div>
+          <div className="footer_container_info_left">c</div>
+        </div>
 
         <div className='footer_container_social_media'>
         <h6>ما را دنبال کنید</h6>
