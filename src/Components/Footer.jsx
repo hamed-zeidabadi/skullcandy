@@ -10,9 +10,41 @@ const Footer = () => {
         <div className='footer_container_sign_up'>اول گوش کنید ...</div>
 
         <div className='footer_container_info'>
-          <div className="footer_container_info_right">a</div>
-          <div className="footer_container_info_middle">b</div>
-          <div className="footer_container_info_left">c</div>
+
+          <div className="footer_container_info_right">
+
+          <ul className='footer_container_info_ul'>
+            <li><a>aaaa</a></li>
+            <li><a>aaaa</a></li>
+            <li><a>aaaa</a></li>
+            <li><a>aaaa</a></li>
+          </ul>
+            
+
+          </div>
+
+          <div className="footer_container_info_middle">
+
+          <ul className='footer_container_info_ul'>
+            <li><a>aaaa</a></li>
+            <li><a>aaaa</a></li>
+            <li><a>aaaa</a></li>
+            <li><a>aaaa</a></li>
+          </ul>
+
+          </div>
+
+          <div className="footer_container_info_left">
+
+          <ul className='footer_container_info_ul'>
+            <li><a>aaaa</a></li>
+            <li><a>aaaa</a></li>
+            <li><a>aaaa</a></li>
+            <li><a>aaaa</a></li>
+          </ul>
+
+          </div>
+
         </div>
 
         <div className='footer_container_social_media'>
