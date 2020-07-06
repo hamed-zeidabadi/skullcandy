@@ -20,6 +20,10 @@
   &_social_media{
 
     display: flex;
+    flex-direction: column;
+
+    & h6{
+      align-self: center;
 
    &_icons{
 
@@ -31,8 +35,7 @@
   
    }
    
-   & h6{
-    justify-content: center
+
    }
 
    & ul {
