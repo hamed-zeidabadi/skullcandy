@@ -12,9 +12,9 @@ const Footer = () => {
         <div className='footer_container_info'> نقشه سایت</div>
 
         <div className='footer_container_social_media'>
-
+        <h6>ما را دنبال کنید</h6>
           <nav className="footer_container_social_media_icons'">
-           <h6>ما را دنبال کنید</h6>
+           
               <ul>
                 <li>
                   <FaGithubAlt />
