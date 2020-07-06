@@ -1,12 +1,9 @@
 .footer {
-  
   width: 100%;
   background-color: #000;
-  
 }
 
-.footer_container{
-
+.footer_container {
   height: 45vh;
   display: flex;
   color: #fff;
@@ -16,51 +13,33 @@
 
 
 
+    &_icons {
+    
 
-  &_social_media{
-
-    display: flex;
-    flex-direction: column;
-
-    & h6{
+      display: flex;
+      justify-content: center;
       align-self: center;
-
-   &_icons{
-
-    // سلام حامد جان نمیدونم چرا دیسپلی فلکس اعمال نمیشه به این کلاس
-
-    display: flex;
-    justify-content: center;
-    align-self: center;
-  
-   }
-   
-
-   }
-
-   & ul {
-    display: flex;
-
-  }
-
-  & li {
-    list-style: none;
-    margin: 0 15px 0 15px;
-    & svg {
-      font-size: 1.3em;
     }
-  }
 
+    & h6 {
+    }
 
+    & ul {
+      display: flex;
+    }
 
-  }
+    & li {
+      list-style: none;
+      margin: 0 15px 0 15px;
+      & svg {
+        font-size: 1.3em;
+      }
+    }
 
-  &_info{
+    &_info{
 
     display: flex;
     width: 21em;
     justify-content: space-between;
   }
-
 }
-
