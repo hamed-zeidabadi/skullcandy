@@ -9,27 +9,33 @@ const Footer = () => {
 
         <div className='footer_container_sign_up'>اول گوش کنید ...</div>
 
+
+
         <div className='footer_container_info'>
 
           <div className="footer_container_info_right">
 
           <ul className='footer_container_info_ul'>
-            <li><a>aaaa</a></li>
-            <li><a>aaaa</a></li>
-            <li><a>aaaa</a></li>
-            <li><a>aaaa</a></li>
+
+            <li><a href='#'>درباره ما</a></li>
+            <li><a href='#'>محافظت</a></li>
+            <li><a href='#'>آماده سازی</a></li>
+            <li><a href='#'>قاب ها</a></li>
+
           </ul>
             
-
           </div>
 
           <div className="footer_container_info_middle">
 
           <ul className='footer_container_info_ul'>
-            <li><a>aaaa</a></li>
-            <li><a>aaaa</a></li>
-            <li><a>aaaa</a></li>
-            <li><a>aaaa</a></li>
+
+            <li><a href='#'>تخفیف</a></li>
+            <li><a href='#'> برنامه ها</a></li>
+            <li><a href='#'> مقایسه</a></li>
+            <li><a href='#'>محصولات</a></li>
+            <li><a href='#'>تاریخچه</a></li>
+
           </ul>
 
           </div>
@@ -37,15 +43,19 @@ const Footer = () => {
           <div className="footer_container_info_left">
 
           <ul className='footer_container_info_ul'>
-            <li><a>aaaa</a></li>
-            <li><a>aaaa</a></li>
-            <li><a>aaaa</a></li>
-            <li><a>aaaa</a></li>
+
+            <li><a href='#'>راهنمایی</a></li>
+            <li><a href='#'>ارتباط با ما</a></li>
+            <li><a href='#'>پروفایل</a></li>
+            <li><a href='#'>گارانتی</a></li>
+
           </ul>
 
           </div>
 
         </div>
+
+
 
         <div className='footer_container_social_media'>
         <h5>ما را دنبال کنید</h5>
