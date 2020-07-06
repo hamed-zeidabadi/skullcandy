@@ -11,7 +11,11 @@
   justify-content: space-between;
   padding: 2em;
 
+  &_social_media{
 
+    display: flex;
+    flex-direction: column;
+  }
 
     &_icons {
     
@@ -21,7 +25,9 @@
       align-self: center;
     }
 
-    & h6 {
+    & h5 {
+      align-self: center;
+      margin-bottom: 0.8em;
     }
 
     & ul {

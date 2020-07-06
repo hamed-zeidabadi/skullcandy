@@ -16,7 +16,7 @@ const Footer = () => {
         </div>
 
         <div className='footer_container_social_media'>
-        <h6>ما را دنبال کنید</h6>
+        <h5>ما را دنبال کنید</h5>
           <nav className="footer_container_social_media_icons'">
            
               <ul>
