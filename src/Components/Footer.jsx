@@ -98,17 +98,18 @@ const Footer = () => {
 
             <div className="footer_base_copyright">
               <ul>
-                <li>تمامی حقوق برای حامد و امین محفوظ است </li>
                 <li> <FaRegCopyright /> </li>
+                <li>تمامی حقوق برای حامد و امین محفوظ است </li>
               </ul>
             </div>
 
             <div className="footer_base_links">
             <ul>
-                <li> شرایط استفاده </li>
-                <li> حقوق کاربران</li>
+                <li > <a>شرایط استفاده </a></li>
+                <li className='footer_base_links_after'> <a>حقوق کاربران</a></li>
               </ul>
             </div>
+
         </div>
 
       </div>

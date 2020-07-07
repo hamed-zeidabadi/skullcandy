@@ -132,7 +132,58 @@
    
   }
 
+  .footer_base{
 
+    display: block;
+    height: auto;
+    color: #fff;
+
+    &_container{
+
+      display: flex;
+      justify-content: space-between;
+      margin: 0 0.5em;
+      padding: 5px;
+      // width: ;
+
+      & ul {
+        display: flex;
+      }
+  
+      & li {
+        list-style: none;
+        margin: 0 15px 0 15px;
+        & svg {
+          font-size: 1em;
+        }
+    }
+  }
+
+  &_links {
+
+    li {
+      position: relative;
+    }
+
+    // سلام حامد جان من اینجا برای اضافه کردن خط بین 2 عنصر با سود المنت افتر مجبور شدم
+    // کلاس بدم بهش... شما ببین اگه راه بهتری هست بدون دادن کلاس به المنت افتر رو اضافه کن
+    &_after::after{
+      content: "";
+       position: absolute;
+       top: 50%;
+       right: -15px;
+       width: 1px;
+       height: 1.07143rem;
+       transform: translateY(-50%);
+       border-right: 2px solid #7f817a;
+        
+       }
+  }
+}
 
 
 // Everything is fine, without conflict
+
+
+
+ 
