@@ -5,9 +5,19 @@ const Footer = () => {
   return (
     <>
      <footer className='footer'>
+
       <section className='footer_container'>
 
-        <div className='footer_container_sign_up'>اول گوش کنید ...</div>
+
+        <div className='footer_container_sign_up'>
+
+            <h5>اول گوش کنید ...</h5>
+            <form>
+              <input type='email' placeholder='ثبت نام با ایمیل' />
+              <button>></button>
+            </form>
+
+        </div>
 
 
 
@@ -28,6 +38,7 @@ const Footer = () => {
 
           <div className="footer_container_info_middle">
 
+          {/* اسم کلاس پایین خوب نشده  */}
           <ul className='footer_container_info_ul'>
 
             <li><a href='#'>تخفیف</a></li>

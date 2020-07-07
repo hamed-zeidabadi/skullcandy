@@ -11,11 +11,8 @@
   justify-content: space-between;
   padding: 2em;
 
-  &_icons {
-    display: flex;
-    justify-content: center;
-    align-self: center;
-  }
+
+  
 
 &_info{
 
@@ -63,7 +60,7 @@
  
 }
 
-  &_social_media{
+&_social_media{
 
     display: flex;
     flex-direction: column;
@@ -100,10 +97,7 @@
    
     }
 
-    &_info{
-
-      display: flex;
-    }
+   
   }
 
 
