@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../Images/skull.png";
-import { FaUserAlt, FaSearch, FaShoppingBasket } from "react-icons/fa";
+import { FaRegUser, FaSistrix, FaShoppingCart } from "react-icons/fa";
 
 const Header = () => {
   return (
@@ -32,13 +32,13 @@ const Header = () => {
             <nav className="header_container_left_nav">
               <ul>
                 <li>
-                  <FaUserAlt />
+                  <FaRegUser />
                 </li>
                 <li>
-                  <FaSearch />
+                  <FaSistrix />
                 </li>
                 <li>
-                  <FaShoppingBasket />
+                  <FaShoppingCart />
                 </li>
               </ul>
             </nav>
