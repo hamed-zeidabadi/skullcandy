@@ -105,8 +105,8 @@ const Footer = () => {
 
             <div className="footer_base_links">
             <ul>
-                <li > <a>شرایط استفاده </a></li>
-                <li className='footer_base_links_after'> <a>حقوق کاربران</a></li>
+                <li > <a href='#'>شرایط استفاده </a></li>
+                <li className='footer_base_links_after'> <a href='#'>حقوق کاربران</a></li>
               </ul>
             </div>
 

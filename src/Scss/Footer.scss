@@ -159,10 +159,32 @@
     }
   }
 
+  &_copyright{
+
+    display: flex;
+
+    & ul {
+      display: flex;
+    }
+
+    & li {
+      list-style: none;
+      margin: 0 3px 0 2px;
+      & svg {
+        font-size: 11px;
+      }
+  }
+  }
+
   &_links {
 
     li {
       position: relative;
+    }
+
+    a {
+      color: #fff;
+      text-decoration: none;
     }
 
     // سلام حامد جان من اینجا برای اضافه کردن خط بین 2 عنصر با سود المنت افتر مجبور شدم
