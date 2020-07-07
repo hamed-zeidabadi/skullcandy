@@ -12,7 +12,7 @@ const Footer = () => {
         <div className='footer_container_sign_up'>
 
             <h5>اول گوش کنید ...</h5>
-            <form>
+            <form className='footer_container_sign_up_form'>
               <input type='email' placeholder='ثبت نام با ایمیل' />
               <button>></button>
             </form>

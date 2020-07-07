@@ -12,7 +12,36 @@
   padding: 2em;
 
 
-  
+&_sign_up{
+
+  display: flex;
+  flex-direction: column;
+
+  h5{
+    width: 10em;
+    align-self: flex-start;
+  }
+
+  &_form{
+
+    width: 12em;
+
+    & input{
+      width: 10em;
+    }
+
+    & button{
+
+      font-size: 1em;
+    //  font-weight: 700;
+      width: 2em;
+      color: #fff;
+      background-color: #000;
+      border-color: #000;
+    }
+  }
+
+} 
 
 &_info{
 
