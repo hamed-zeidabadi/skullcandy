@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithubAlt, FaInstagram, FaTwitter ,FaYoutube } from "react-icons/fa";
+import { FaGithubAlt, FaInstagram, FaTwitter ,FaYoutube,FaRegCopyright } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -95,8 +95,20 @@ const Footer = () => {
       <div className="footer_base">
 
         <div className="footer_base_container">
-            <div className="footer_base_copyright"></div>
-            <div className="footer_base_links"></div>
+
+            <div className="footer_base_copyright">
+              <ul>
+                <li>تمامی حقوق برای حامد و امین محفوظ است </li>
+                <li> <FaRegCopyright /> </li>
+              </ul>
+            </div>
+
+            <div className="footer_base_links">
+            <ul>
+                <li> شرایط استفاده </li>
+                <li> حقوق کاربران</li>
+              </ul>
+            </div>
         </div>
 
       </div>
