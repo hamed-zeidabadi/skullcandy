@@ -91,6 +91,17 @@ const Footer = () => {
         </div>
         
       </section>
+
+      <div className="footer_base">
+
+        <div className="footer_base_container">
+            <div className="footer_base_copyright"></div>
+            <div className="footer_base_links"></div>
+        </div>
+
+      </div>
+
+
      </footer>
     </>
   );
