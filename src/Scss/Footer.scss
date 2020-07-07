@@ -25,16 +25,19 @@
   &_form{
 
     width: 12em;
+    display: flex;
+   
 
     & input{
       width: 10em;
+      height: 32px;
     }
 
     & button{
 
-      font-size: 1em;
+      font-size: 22px;
     //  font-weight: 700;
-      width: 2em;
+      width: 18px;
       color: #fff;
       background-color: #000;
       border-color: #000;
