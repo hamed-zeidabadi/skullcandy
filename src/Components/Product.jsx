@@ -3,9 +3,7 @@ import Card from "./Card";
 const Product = () => {
   return (
     <>
-      <div className="product">
-        <Card />
-        <Card />
+      <div className="product row">
         <Card />
         <Card />
         <Card />
