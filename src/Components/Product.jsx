@@ -1,9 +1,17 @@
 import React from "react";
+import Card from "./Card";
 const Product = () => {
   return (
     <>
-      <div className="product">
-        <p>Product Component</p>
+      <div className="product row">
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
       </div>
     </>
   );
