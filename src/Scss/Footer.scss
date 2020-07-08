@@ -42,7 +42,7 @@
       left: 20px;
       transform: rotate(120deg);
       transform-origin: 0;
-      border-top: 1px solid #484849;
+      border-top: 1px solid #636364;
     }
 
     & input{
@@ -123,10 +123,10 @@
     position: absolute;
     top: -25px;
     width: 180%;
-    left: 20px;
+    left: 0;
     transform: rotate(120deg);
     transform-origin: 0;
-    border-top: 1px solid #2b2b2c;
+    border-top: 1px solid #484849;
   }
 
 }
