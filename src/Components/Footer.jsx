@@ -13,7 +13,7 @@ const Footer = () => {
 
             <h5>اول گوش کنید ...</h5>
             <form className='footer_container_sign_up_form'>
-              <input type='email' placeholder='ثبت نام با ایمیل' />
+              <input type='email' placeholder='  ثبت نام با ایمیل' />
               <button>></button>
             </form>
 
@@ -53,14 +53,14 @@ const Footer = () => {
 
           <div className="footer_container_info_left">
 
-          <ul className='footer_container_info_ul'>
+            <ul className='footer_container_info_ul'>
 
-            <li><a href='#'>راهنمایی</a></li>
-            <li><a href='#'>ارتباط با ما</a></li>
-            <li><a href='#'>پروفایل</a></li>
-            <li><a href='#'>گارانتی</a></li>
+              <li><a href='#'>راهنمایی</a></li>
+              <li><a href='#'>ارتباط با ما</a></li>
+              <li><a href='#'>پروفایل</a></li>
+              <li><a href='#'>گارانتی</a></li>
 
-          </ul>
+            </ul>
 
           </div>
 
