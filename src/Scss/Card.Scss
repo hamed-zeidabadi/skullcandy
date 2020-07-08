@@ -1,0 +1,37 @@
+.card {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  &_img {
+    width: 200px;
+    height: 200px;
+    margin-top: -10px;
+  }
+  &_colors {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & div {
+      width: 20px;
+      height: 20px;
+      background-color: red;
+      margin: 3px;
+    }
+  }
+
+  &_desc {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    &_title {
+    }
+    &_price {
+    }
+    
+  }
+}

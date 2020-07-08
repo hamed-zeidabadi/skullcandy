@@ -5,11 +5,11 @@ const Product = () => {
     <>
       <div className="product">
         <Card />
+        {/* <Card />
         <Card />
         <Card />
         <Card />
-        <Card />
-        <Card />
+        <Card /> */}
       </div>
     </>
   );
