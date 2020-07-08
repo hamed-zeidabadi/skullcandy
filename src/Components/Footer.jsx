@@ -1,13 +1,23 @@
 import React from "react";
-import { FaGithubAlt, FaInstagram, FaTwitter ,FaYoutube } from "react-icons/fa";
+import { FaGithubAlt, FaInstagram, FaTwitter ,FaYoutube,FaRegCopyright } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <>
      <footer className='footer'>
+
       <section className='footer_container'>
 
-        <div className='footer_container_sign_up'>اول گوش کنید ...</div>
+
+        <div className='footer_container_sign_up'>
+
+            <h5>اول گوش کنید ...</h5>
+            <form className='footer_container_sign_up_form'>
+              <input type='email' placeholder='ثبت نام با ایمیل' />
+              <button>></button>
+            </form>
+
+        </div>
 
 
 
@@ -28,6 +38,7 @@ const Footer = () => {
 
           <div className="footer_container_info_middle">
 
+          {/* اسم کلاس پایین خوب نشده  */}
           <ul className='footer_container_info_ul'>
 
             <li><a href='#'>تخفیف</a></li>
@@ -80,6 +91,30 @@ const Footer = () => {
         </div>
         
       </section>
+
+      <div className="footer_base">
+
+        <div className="footer_base_container">
+
+            <div className="footer_base_copyright">
+              <ul>
+                <li> <FaRegCopyright /> </li>
+                <li>تمامی حقوق برای حامد و امین محفوظ است </li>
+              </ul>
+            </div>
+
+            <div className="footer_base_links">
+            <ul>
+                <li > <a href='#'>شرایط استفاده </a></li>
+                <li className='footer_base_links_after'> <a href='#'>حقوق کاربران</a></li>
+              </ul>
+            </div>
+
+        </div>
+
+      </div>
+
+
      </footer>
     </>
   );
