@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import red from "../Images/T-Shirts/T-1.jpg";
-import pink from "../Images/T-Shirts/T-7.jpg";
+import yellow from "../Images/T-Shirts/T-3.jpg";
 import blue from "../Images/T-Shirts/T-8.jpg";
-import black from "../Images/T-Shirts/T-5.jpg";
+import gray from "../Images/T-Shirts/T-2.jpg";
 
 const Card = ({ title, image, color, price, like, buy }) => {
   const [Color, setColor] = useState(null);
@@ -25,12 +25,12 @@ const Card = ({ title, image, color, price, like, buy }) => {
             onClick={() => setColor(blue)}
           ></div>
           <div
-            style={{ backgroundColor: "pink" }}
-            onClick={() => setColor(pink)}
+            style={{ backgroundColor: "yellow" }}
+            onClick={() => setColor(yellow)}
           ></div>
           <div
-            style={{ backgroundColor: "black" }}
-            onClick={() => setColor(black)}
+            style={{ backgroundColor: "gray" }}
+            onClick={() => setColor(gray)}
           ></div>
         </div>
         <p className="card_desc_title"> تی شرت</p>

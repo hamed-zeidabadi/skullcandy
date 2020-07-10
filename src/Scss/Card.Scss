@@ -27,6 +27,13 @@
       width: 20px;
       height: 20px;
       margin: 3px;
+      border-radius: 50%;
+
+      &:active,
+      &:hover {
+        transition: .4s transform ;
+        transform: scale(1.19);
+      }
     }
   }
 
