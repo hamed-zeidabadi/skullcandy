@@ -12,25 +12,23 @@ const Filter = () => {
         <label for="filter-switch" class="dropdown__options-filter">
           <ul class="dropdown__filter" role="listbox" tabindex="-1">
             <li class="dropdown__filter-selected" aria-selected="true">
-              Default option
+              جدیدترین ها
             </li>
             <li>
               <ul class="dropdown__select">
                 <li class="dropdown__select-option" role="option">
-                  Option 1
+                  بیشترین فروش
                 </li>
                 <li class="dropdown__select-option" role="option">
-                  Option 2
+                  محبوترین
                 </li>
                 <li class="dropdown__select-option" role="option">
-                  Option 3
+                  بیشترین قیمت
                 </li>
                 <li class="dropdown__select-option" role="option">
-                  Option 4
+                  کمترین قیمت
                 </li>
-                <li class="dropdown__select-option" role="option">
-                  Option 5
-                </li>
+               
               </ul>
             </li>
           </ul>
