@@ -13,7 +13,7 @@ const Filter = () => {
           id="filter-switch"
           hidden
         />
-        <label forhtml="filter-switch" className="dropdown__options-filter">
+        <label htmlFor="filter-switch" className="dropdown__options-filter">
           <ul className="dropdown__filter" role="listbox" tabindex="-1">
             <li
               className="dropdown__filter-selected"
