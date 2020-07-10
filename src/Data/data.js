@@ -1,11 +1,11 @@
-import red from "../images/T-Shirts/T-1.jpg";
-import gray from "../images/T-Shirts/T-2.jpg";
-import yellow from "../images/T-Shirts/T-3.jpg";
-import white from "../images/T-Shirts/T-4.jpg";
-import black from "../images/T-Shirts/T-5.jpg";
-import cyan from "../images/T-Shirts/T-6.jpg";
-import pink from "../images/T-Shirts/T-7.jpg";
-import blue from "../images/T-Shirts/T-8.jpg";
+import red from '../Images/T-Shirts/T-1.jpg'
+import gray from "../Images/T-Shirts/T-2.jpg";
+import yellow from "../Images/T-Shirts/T-3.jpg";
+import white from "../Images/T-Shirts/T-4.jpg";
+import black from "../Images/T-Shirts/T-5.jpg";
+import cyan from "../Images/T-Shirts/T-6.jpg";
+import pink from "../Images/T-Shirts/T-7.jpg";
+import blue from "../Images/T-Shirts/T-8.jpg";
 
 export default [
   {

@@ -1,11 +1,13 @@
 import React from "react";
 import img from "../Images/T-Shirts/T-1.jpg";
 
-const Card = () => {
+const Card = ({ title, image, color, price, like, buy }) => {
+  console.log("data  : ", color);
+
   return (
     <>
       <div className="card">
-        <img src={img} alt="product images" className="card_img" />
+        <img src={image} alt="product images" className="card_img" />
         <div className="card_colors">
           <div></div>
           <div></div>

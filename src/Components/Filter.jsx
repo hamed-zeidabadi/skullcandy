@@ -6,26 +6,26 @@ const Filter = () => {
   });
   return (
     <>
-      <div class="dropdown">
+      <div className="dropdown">
         <input
           type="checkbox"
-          class="dropdown__switch"
+          className="dropdown__switch"
           id="filter-switch"
           hidden
         />
-        <label for="filter-switch" class="dropdown__options-filter">
-          <ul class="dropdown__filter" role="listbox" tabindex="-1">
+        <label forhtml="filter-switch" className="dropdown__options-filter">
+          <ul className="dropdown__filter" role="listbox" tabindex="-1">
             <li
-              class="dropdown__filter-selected"
+              className="dropdown__filter-selected"
               style={{ color: "#4d1091" }}
               aria-selected="true"
             >
               {Slected.default ? " نمایش بر اساس ...." : Slected.msg}
             </li>
             <li>
-              <ul class="dropdown__select">
+              <ul className="dropdown__select">
                 <li
-                  class="dropdown__select-option"
+                  className="dropdown__select-option"
                   role="option"
                   onClick={() =>
                     setSlected({ default: false, msg: "بیشترین فروش" })
@@ -34,7 +34,7 @@ const Filter = () => {
                   بیشترین فروش
                 </li>
                 <li
-                  class="dropdown__select-option"
+                  className="dropdown__select-option"
                   role="option"
                   onClick={() =>
                     setSlected({ default: false, msg: "محبوترین ها" })
@@ -43,7 +43,7 @@ const Filter = () => {
                   محبوترین ها
                 </li>
                 <li
-                  class="dropdown__select-option"
+                  className="dropdown__select-option"
                   role="option"
                   onClick={() =>
                     setSlected({ default: false, msg: "بیشترین قیمت" })
@@ -52,7 +52,7 @@ const Filter = () => {
                   بیشترین قیمت
                 </li>
                 <li
-                  class="dropdown__select-option"
+                  className="dropdown__select-option"
                   role="option"
                   onClick={() =>
                     setSlected({ default: false, msg: " کمترین قیمت" })

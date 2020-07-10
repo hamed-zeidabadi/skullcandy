@@ -4,8 +4,8 @@
   box-shadow: 0 5px 10px 0 rgba(21, 1, 47, 0.5);
   width: 30%;
   border-radius: 30px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 
   &__switch:checked + &__options-filter &__select {
     transform: scaleY(1);
