@@ -99,7 +99,10 @@ const Footer = () => {
             <div className="footer_base_copyright">
               <ul>
                 <li> <FaRegCopyright /> </li>
-                <li>تمامی حقوق برای حامد و امین محفوظ است </li>
+                <li>تمامی حقوق برای   
+                  <a href='https://github.com/hamed-zeidabadi' target='blanck'> حامد</a>
+                 و <a href='https://github.com/amin-da' target='blanck'> امین </a>
+                  محفوظ است</li>
               </ul>
             </div>
 
