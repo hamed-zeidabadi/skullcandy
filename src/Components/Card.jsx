@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import img from "../Images/T-Shirts/T-1.jpg";
 
 const Card = ({ title, image, color, price, like, buy }) => {
-  console.log("data  : ", color);
+  // const [Color, setColor] = useState({});
+  // useEffect(() => {
+  //   if (color) return setColor(color);
+  // }, []);
 
   return (
     <>
