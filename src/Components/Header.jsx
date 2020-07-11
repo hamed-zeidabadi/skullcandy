@@ -6,8 +6,10 @@ const Header = () => {
   return (
     <>
       <header className="header">
+
         <div className="header_container">
           {/* Add two container for left & right items */}
+
           <div className="header_container_right">
             <img
               src={logo}
@@ -28,8 +30,11 @@ const Header = () => {
               </ul>
             </nav>
           </div>
+
           <div className="header_container_left">
+
             <nav className="header_container_left_nav">
+              
               <ul>
                 <li>
                   <FaRegUser />
@@ -41,9 +46,13 @@ const Header = () => {
                   <FaShoppingCart />
                 </li>
               </ul>
+
             </nav>
+
           </div>
+
         </div>
+
       </header>
     </>
   );
