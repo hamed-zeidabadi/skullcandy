@@ -1,9 +1,32 @@
 import React, { useState } from "react";
+import { useDispatch } from "react-redux";
+import { BY_Like } from "./../Redux/Actions";
+
 const Filter = () => {
   const [Slected, setSlected] = useState({
     default: true,
     msg: "",
   });
+
+  const dispach = useDispatch();
+
+  const _handleLike = async () => {
+    try {
+      await dispach(BY_Like("LIKE"));
+      await setSlected({ default: false, msg: "محبوترین ها" });
+    } catch (err) {
+      console.log("ERORR :", err);
+    }
+  };
+  const _lowestPrice = async () => {
+    try {
+      await dispach(BY_Like("LIKE"));
+      await setSlected({ default: false, msg: "محبوترین ها" });
+    } catch (err) {
+      console.log("ERORR :", err);
+    }
+  };
+
   return (
     <>
       <div className="dropdown">
@@ -36,9 +59,7 @@ const Filter = () => {
                 <li
                   className="dropdown__select-option"
                   role="option"
-                  onClick={() =>
-                    setSlected({ default: false, msg: "محبوترین ها" })
-                  }
+                  onClick={_handleLike}
                 >
                   محبوترین ها
                 </li>

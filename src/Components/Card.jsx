@@ -37,6 +37,7 @@ const Card = ({ title, image, color, price, like, buy }) => {
         <div className="card_desc">
           <p className="card_desc_price"> {price} هزار تومان </p>
         </div>
+        <p className="card_desc_like"> like {like} </p>
       </div>
     </>
   );

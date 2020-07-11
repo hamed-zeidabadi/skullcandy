@@ -3,20 +3,26 @@ import Card from "./Card";
 import Filter from "./Filter";
 import Fake_Data from "../Data/data";
 import Loading from "./Loading";
+import { useSelector } from "react-redux";
+
 const Product = () => {
   const [data, setdata] = useState([]);
-  // useEffect(() => {
-  //   //fetch fake data in local
-  //   setdata(Fake_Data);
-  // }, [data]);
+  const DATA = useSelector((state) => state.data);
+
+  console.log("DATA : ", DATA);
+
+  useEffect(() => {
+    //fetch fake data in local
+    setdata(DATA);
+  }, [DATA]);
 
   return (
     <>
       <div className="product">
         <Filter />
         <div className="product_row">
-          {data.length !== 0 && data ? (
-            data.map((item) => (
+          {DATA.length !== 0 && DATA ? (
+            DATA.map((item) => (
               <Card
                 key={item.id}
                 title={item.title}
