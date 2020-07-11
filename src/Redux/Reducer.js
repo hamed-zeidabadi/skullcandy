@@ -12,6 +12,11 @@ export default (state = initialState, action) => {
       return {
         data: newDATA,
       };
+    case "LOW":
+      const newDATA2 = _.orderBy(data, ["price"], ["asc"]);
+      return {
+        data: newDATA2,
+      };
 
     default:
       return state;

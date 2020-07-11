@@ -18,10 +18,10 @@ const Filter = () => {
       console.log("ERORR :", err);
     }
   };
-  const _lowestPrice = async () => {
+  const _handelLowestPrice = async () => {
     try {
-      await dispach(BY_Like("LIKE"));
-      await setSlected({ default: false, msg: "محبوترین ها" });
+      await dispach(BY_Like("LOW"));
+      await setSlected({ default: false, msg: " کمترین قیمت" });
     } catch (err) {
       console.log("ERORR :", err);
     }
@@ -75,9 +75,7 @@ const Filter = () => {
                 <li
                   className="dropdown__select-option"
                   role="option"
-                  onClick={() =>
-                    setSlected({ default: false, msg: " کمترین قیمت" })
-                  }
+                  onClick={_handelLowestPrice}
                 >
                   کمترین قیمت
                 </li>
