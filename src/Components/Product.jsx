@@ -2,12 +2,13 @@ import React, { useEffect, useState } from "react";
 import Card from "./Card";
 import Filter from "./Filter";
 import Fake_Data from "../Data/data";
+import Loading from "./Loading";
 const Product = () => {
   const [data, setdata] = useState([]);
-  useEffect(() => {
-    //fetch fake data in local
-    setdata(Fake_Data);
-  }, [data]);
+  // useEffect(() => {
+  //   //fetch fake data in local
+  //   setdata(Fake_Data);
+  // }, [data]);
 
   return (
     <>
@@ -27,7 +28,7 @@ const Product = () => {
               />
             ))
           ) : (
-            <p>loading ...</p>
+            <Loading />
           )}
         </div>
       </div>

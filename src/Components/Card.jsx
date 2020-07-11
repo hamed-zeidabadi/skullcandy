@@ -33,9 +33,9 @@ const Card = ({ title, image, color, price, like, buy }) => {
             onClick={() => setColor(gray)}
           ></div>
         </div>
-        <p className="card_desc_title"> تی شرت</p>
+        <p className="card_desc_title">{title}</p>
         <div className="card_desc">
-          <p className="card_desc_price"> تومان5000</p>
+          <p className="card_desc_price"> {price} هزار تومان </p>
         </div>
       </div>
     </>
