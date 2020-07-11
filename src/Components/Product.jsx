@@ -13,7 +13,7 @@ const Product = () => {
     <>
       <div className="product">
         <Filter />
-        <div className="row">
+        <div className="product_row">
           {data.length !== 0 && data ? (
             data.map((item) => (
               <Card
