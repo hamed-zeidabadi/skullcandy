@@ -26,6 +26,14 @@ const Filter = () => {
       console.log("ERORR :", err);
     }
   };
+  const _handelHighestPrice = async () => {
+    try {
+      await dispach(BY_Like("UP"));
+      await setSlected({ default: false, msg: "بیشترین قیمت" });
+    } catch (err) {
+      console.log("ERORR :", err);
+    }
+  };
 
   return (
     <>
@@ -66,9 +74,7 @@ const Filter = () => {
                 <li
                   className="dropdown__select-option"
                   role="option"
-                  onClick={() =>
-                    setSlected({ default: false, msg: "بیشترین قیمت" })
-                  }
+                  onClick={_handelHighestPrice}
                 >
                   بیشترین قیمت
                 </li>
