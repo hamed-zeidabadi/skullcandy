@@ -210,6 +210,46 @@
   }
 
 
+  
+  .header_container_left_nav{
+
+    &_user{
+      display: none;
+    }
+
+    &_strix{
+
+      display: none;
+    }
+  }
+
+  .header_container_right{
+
+    // width: 70%;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+    &_nav{
+
+      display: none;
+    }
+    &_logo{
+
+      margin-top: 0;
+
+    }
+
+    &_menu{
+
+      display: block;
+      padding: 10px;
+      
+    }
+
+  }
+  
+
+
   .footer_container { 
 
     height: auto;
