@@ -44,6 +44,15 @@
     &_title {
     }
     &_price {
+     
+    }
+    &_like{
+      display: flex;
+      align-items: center;
+
+      & svg{
+        margin: 5px;
+      }
     }
   }
 }
