@@ -10,7 +10,7 @@ import blue from "../Images/T-Shirts/T-8.jpg";
 export default [
   {
     id: 1,
-    title: "تی شرت",
+    title: " تی شرت مدل AB",
     image: red,
     color: { red, gray, yellow, pink },
     price: "100",
@@ -19,7 +19,7 @@ export default [
   },
   {
     id: 2,
-    title: "تی شرت",
+    title: " تی شرت مدل DA",
     image: gray,
     color: { gray, pink, white, black },
     price: "120",
@@ -28,7 +28,7 @@ export default [
   },
   {
     id: 3,
-    title: "تی شرت",
+    title: " تی شرت مدل KJ",
     image: yellow,
     color: { yellow, gray, black, cyan },
     price: "130",
@@ -37,7 +37,7 @@ export default [
   },
   {
     id: 4,
-    title: "تی شرت",
+    title: " تی شرت مدل DG",
     image: white,
     color: { red, gray, yellow, black },
     price: "180",
@@ -46,7 +46,7 @@ export default [
   },
   {
     id: 5,
-    title: "تی شرت",
+    title: " تی شرت مدل PJ",
     image: black,
     color: { black, gray, cyan, pink },
     price: "145",
@@ -55,7 +55,7 @@ export default [
   },
   {
     id: 6,
-    title: "تی شرت",
+    title: " تی شرت مدل FF",
     image: cyan,
     color: { cyan, pink, blue, black },
     price: "111",
@@ -64,7 +64,7 @@ export default [
   },
   {
     id: 7,
-    title: "تی شرت",
+    title: " تی شرت مدل KS",
     image: pink,
     color: { pink, white, yellow, blue },
     price: "178",
@@ -73,7 +73,7 @@ export default [
   },
   {
     id: 8,
-    title: "تی شرت",
+    title: " تی شرت مدل BS",
     image: blue,
     color: { blue, red, black, cyan },
     price: "198",
@@ -82,7 +82,7 @@ export default [
   },
   {
     id: 9,
-    title: "تی شرت",
+    title: " تی شرت مدل LS",
     image: red,
     color: { red, blue, yellow, pink },
     price: "115",
@@ -91,7 +91,7 @@ export default [
   },
   {
     id: 10,
-    title: "تی شرت",
+    title: " تی شرت مدل SD",
     image: gray,
     color: { gray, red, white, black },
     price: "140",
@@ -100,7 +100,7 @@ export default [
   },
   {
     id: 11,
-    title: "تی شرت",
+    title: " تی شرت مدل RW",
     image: yellow,
     color: { yellow, gray, black, white },
     price: "164",
@@ -109,7 +109,7 @@ export default [
   },
   {
     id: 12,
-    title: "تی شرت",
+    title: " تی شرت مدل AB",
     image: white,
     color: { red, gray, yellow, black },
     price: "107",
@@ -127,7 +127,7 @@ export default [
   },
   {
     id: 14,
-    title: "تی شرت",
+    title: " تی شرت مدل AB",
     image: cyan,
     color: { cyan, pink, blue, black },
     price: "144",
@@ -136,7 +136,7 @@ export default [
   },
   {
     id: 15,
-    title: "تی شرت",
+    title: " تی شرت مدل AB",
     image: pink,
     color: { pink, white, yellow, blue },
     price: "156",
@@ -145,7 +145,7 @@ export default [
   },
   {
     id: 16,
-    title: "تی شرت",
+    title: " تی شرت مدل AB",
     image: blue,
     color: { blue, red, black, cyan },
     price: "100",
