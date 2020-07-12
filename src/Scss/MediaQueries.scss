@@ -53,6 +53,47 @@
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   body {
     background-color: black;
+
+  }
+
+  .footer_container{
+
+
+    &_sign_up_form{
+
+
+      ::after {
+        content: "";
+        position: absolute;
+        top: -20px;
+        width: 90%;
+        left: 20px;
+        transform: rotate(90deg);
+        transform-origin: 0;
+        border-top: 1px solid #636364;
+      }
+  
+    }
+
+    &_info{
+
+      &_left{
+        
+        ::after {
+          content: "";
+          position: absolute;
+          top: -20px;
+          width: 180%;
+          left: 0;
+          transform: rotate(90deg);
+          transform-origin: 0;
+          border-top: 1px solid #484849;
+        }
+      }
+    }
+
+  
+    
   }
 }
 
@@ -63,7 +104,7 @@
   ##Screen = B/w 481px to 767px
 */
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 711px) and (max-width: 767px) {
 
   body {
     background-color: yellow;
@@ -107,7 +148,108 @@
 
   }
 
+
+  .footer_container{
+
+    &_sign_up_form{
+
+
+      ::after {
+        content: "";
+        position: absolute;
+        top: -20px;
+        width: 90%;
+        left: 20px;
+        transform: rotate(90deg);
+        transform-origin: 0;
+        border-top: 1px solid #636364;
+      }
+  
+    }
+
+    &_info{
+
+      &_left{
+
+        ::after {
+          content: "";
+          position: absolute;
+          top: -20px;
+          width: 180%;
+          left: 0;
+          transform: rotate(90deg);
+          transform-origin: 0;
+          border-top: 1px solid #484849;
+        }
+      }
+    }
+    
+  }
+
+
  
+
+}
+
+
+//========================================================
+
+/* 
+ ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+
+  **** مدیا پایین رو من اضافه کردم چون در این ابعاد برای 
+  این پروژه بهم ریختگی زیادی در فوتر داشتیم
+*/
+
+
+@media (min-width: 481px) and (max-width: 710px) {
+
+  body{
+    background-color: #96ec0b;
+  }
+
+
+  .footer_container { 
+
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    justify-content: center;
+    padding: 2em;
+
+
+    &_sign_up{
+
+      align-items: center;
+      
+
+      &_form{
+        
+        ::after {
+       
+          display: none;
+        }
+
+      }
+    
+  
+    }
+
+    &_info{
+
+      &_left{
+
+        ::after {
+        
+          display: none;
+        }
+      }
+    }
+
+  }
+
 
 }
 
@@ -157,6 +299,15 @@
       display: block;
       padding: 10px;
       
+    }
+
+  }
+
+  .footer_container_sign_up_form{
+
+    ::after {
+     
+      display: none;
     }
 
   }
