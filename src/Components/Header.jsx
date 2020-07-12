@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../Images/skull.png";
-import { FaRegUser, FaSistrix, FaShoppingCart } from "react-icons/fa";
+import { FaRegUser, FaSistrix, FaShoppingCart,FaEquals } from "react-icons/fa";
 
 const Header = () => {
   return (
@@ -29,6 +29,17 @@ const Header = () => {
                 </li>
               </ul>
             </nav>
+
+            <div className='header_container_right_menu'>
+
+               <FaEquals/>
+
+            </div>
+
+            {/* Adding menu logo for responsiv size */}
+
+
+
           </div>
 
           <div className="header_container_left">
@@ -59,3 +70,6 @@ const Header = () => {
 };
 
 export default Header;
+
+
+// {<FaEquals/>}
