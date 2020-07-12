@@ -66,6 +66,18 @@
 @media (min-width: 481px) and (max-width: 767px) {
   body {
     background-color: yellow;
+    
+  }
+  .header_container_left_nav{
+
+    &_user{
+      display: none;
+    }
+
+    &_strix{
+
+      display: none;
+    }
   }
 }
 

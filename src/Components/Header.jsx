@@ -36,13 +36,13 @@ const Header = () => {
             <nav className="header_container_left_nav">
               
               <ul>
-                <li>
+                <li className="header_container_left_nav_user">
                   <FaRegUser />
                 </li>
-                <li>
+                <li className='header_container_left_nav_strix'>
                   <FaSistrix />
                 </li>
-                <li>
+                <li className='header_container_left_nav_cart'>
                   <FaShoppingCart />
                 </li>
               </ul>
