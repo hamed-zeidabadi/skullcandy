@@ -253,22 +253,21 @@
   .footer_container { 
 
     height: auto;
-    display: flex;
     flex-direction: column;
-    color: #fff;
     justify-content: center;
-    padding: 2em;
+    padding: .5em;
 
 
     &_sign_up{
 
       align-items: center;
-      
+      border-bottom: 1px solid #636364;
+      padding:1em;
+     
 
       &_form{
-        
+
         ::after {
-       
           display: none;
         }
 
@@ -279,6 +278,13 @@
 
     &_info{
 
+      align-items: center;
+      border-bottom: 1px solid #636364;
+      width: auto;
+      padding:1em;
+     
+
+
       &_left{
 
         ::after {
@@ -286,6 +292,12 @@
           display: none;
         }
       }
+    }
+
+    &_social_media{
+
+      align-items: center;
+      padding: 1em;
     }
 
   }
@@ -343,12 +355,56 @@
 
   }
 
-  .footer_container_sign_up_form{
+  .footer_container { 
 
-    ::after {
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    padding: .5em;
+
+
+    &_sign_up{
+
+      align-items: center;
+      border-bottom: 1px solid #636364;
+      padding:1em;
      
-      display: none;
+
+      &_form{
+
+        ::after {
+          display: none;
+        }
+
+      }
+    
+  
+    }
+
+    &_info{
+
+      align-items: center;
+      border-bottom: 1px solid #636364;
+      width: auto;
+      padding:1em;
+     
+
+
+      &_left{
+
+        ::after {
+        
+          display: none;
+        }
+      }
+    }
+
+    &_social_media{
+
+      align-items: center;
+      padding: 1em;
     }
 
   }
+
 }
