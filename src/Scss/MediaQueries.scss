@@ -249,6 +249,7 @@
   }
   
 
+  
 
   .footer_container { 
 
@@ -303,6 +304,15 @@
   }
 
 
+
+
+  .footer_base_container{
+
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
 }
 
 //========================================================
@@ -316,6 +326,8 @@
   body {
     background-color: gray;
   }
+
+
 
   .header_container_left_nav{
 
@@ -355,6 +367,9 @@
 
   }
 
+
+
+
   .footer_container { 
 
     height: auto;
@@ -406,5 +421,14 @@
     }
 
   }
+
+
+
+  .footer_base_container{
+
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
 
 }
