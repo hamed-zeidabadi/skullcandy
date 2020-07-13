@@ -32,7 +32,7 @@ const Header = () => {
 
             <div className='header_container_right_menu'>
 
-               <FaEquals/>
+               <a href='#'><FaEquals/></a>
 
             </div>
 
