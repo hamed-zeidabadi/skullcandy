@@ -1,8 +1,20 @@
-import React from "react";
+import React,{useState} from "react";
 import logo from "../Images/skull.png";
 import { FaRegUser, FaSistrix, FaShoppingCart,FaEquals } from "react-icons/fa";
 
 const Header = () => {
+
+
+  const[open,setOpen]=useState(false);
+
+
+  function HandleOpen(){
+
+    // setOpen(prevState=>(!prevState))
+    setOpen(!open)
+
+  }
+
   return (
     <>
       <header className="header">
@@ -32,7 +44,22 @@ const Header = () => {
 
             <div className='header_container_right_menu'>
 
-               <a href='#'><FaEquals/></a>
+              <a
+                 onClick={HandleOpen}>
+                  <FaEquals/>
+                  {console.log(` a menu clicked and statse is ${open}`)}
+
+                    {open ? 
+                     <ul  className='header_container_right_menu_items'>
+                      <li>خانه</li>
+                      <li>تماس با ما</li>
+                      <li>قوانین</li>
+                     </ul>
+                     :false
+                    }
+                 
+                  
+              </a>
 
             </div>
 

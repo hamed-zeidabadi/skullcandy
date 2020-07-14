@@ -143,6 +143,26 @@
 
       display: block;
       padding: 10px;
+      position: relative;
+
+     &_items{
+
+      display: flex;
+      position: absolute;
+      flex-direction: column;
+      width: 100vw;
+      height: 100vh;
+      top: 3em;
+      right: 0;
+      background-color: black;
+      z-index: 10;
+
+      & li{
+        list-style: none;
+        padding: 10px;
+      }
+
+     }
       
     }
 
@@ -243,8 +263,31 @@
 
       display: block;
       padding: 10px;
+      position: relative;
+
+      &_items{
+
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        top: 3em;
+        right: 0;
+        background-color: black;
+        z-index: 10;
+        transition:all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+  
+        & li{
+          list-style: none;
+          padding: 10px;
+        }
+  
+       }
       
     }
+
 
   }
   
@@ -313,7 +356,7 @@
   }
 
 
-}
+
 
 //========================================================
 
