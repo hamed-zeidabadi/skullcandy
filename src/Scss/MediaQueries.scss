@@ -6,6 +6,20 @@
 // معمولا برای مشخص شدن یه بک گراند متفاوت هم به هر سایز دادم که بعدا پاک میکنیم
 
 //========================================================
+
+
+// کلاس برای زمانی که منو دراپ دان باز شود
+
+.body_drop_dwon_menu_class{
+
+     overflow: hidden !important;
+    height: 100% !important;
+
+}
+
+
+
+    
 /* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
@@ -145,26 +159,27 @@
       padding: 10px;
       position: relative;
 
-     &_items{
+      &_items{
 
-      display: flex;
-      position: absolute;
-      flex-direction: column;
-      width: 100vw;
-      height: 100vh;
-      top: 3em;
-      right: 0;
-      background-color: black;
-      z-index: 10;
-
-      & li{
-        list-style: none;
-        padding: 10px;
-      }
-
-     }
-      
-    }
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        top: 3em;
+        right: 0;
+        background-color: black;
+        z-index: 10;
+        transition: background-color 3s linear 3s;
+}
+  
+        & li{
+          list-style: none;
+          padding: 1em;
+          border-top: 1px solid #636364;
+        }
+  
+       }
 
   }
 
@@ -227,6 +242,8 @@
 
   body{
     background-color: #96ec0b;
+    // overflow: hidden !important;
+    // height: 100% !important;
   }
 
 
@@ -276,12 +293,13 @@
         right: 0;
         background-color: black;
         z-index: 10;
-        transition:all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        transition: background-color 3s linear 3s;
 }
   
         & li{
           list-style: none;
-          padding: 10px;
+          padding: 1em;
+          border-top: 1px solid #636364;
         }
   
        }
@@ -405,8 +423,29 @@
 
       display: block;
       padding: 10px;
-      
-    }
+      position: relative;
+
+      &_items{
+
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        top: 3em;
+        right: 0;
+        background-color: black;
+        z-index: 10;
+        transition: background-color 3s linear 3s;
+}
+  
+        & li{
+          list-style: none;
+          padding: 1em;
+          border-top: 1px solid #636364;
+        }
+  
+       }
 
   }
 

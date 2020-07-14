@@ -10,10 +10,28 @@ const Header = () => {
 
   function HandleOpen(){
 
+   
     // setOpen(prevState=>(!prevState))
     setOpen(!open)
 
+
+    //کد های پایین برای تغییر سایز المنت بادی اضافه شده است
+    // برای زمانی که منو دراپ دان کلیک میشود
+    const body=document.querySelector('body');
+
+    if(open){
+      body.classList.remove('body_drop_dwon_menu_class')
+    }
+    
+    else{
+      body.classList.add('body_drop_dwon_menu_class');
+    }
+
   }
+
+  
+
+  
 
   return (
     <>
@@ -57,7 +75,7 @@ const Header = () => {
                      </ul>
                      :false
                     }
-                 
+                   
                   
               </a>
 
