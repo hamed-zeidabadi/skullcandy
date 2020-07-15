@@ -1,5 +1,5 @@
 import React,{useState} from "react";
-import logo from "../Images/skull.png";
+import logo from "../Images/men.jpg";
 import { FaRegUser, FaSistrix, FaShoppingCart,FaEquals } from "react-icons/fa";
 
 const Header = () => {
