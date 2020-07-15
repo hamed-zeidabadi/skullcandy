@@ -1,7 +1,7 @@
+/* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from "react";
 import Card from "./Card";
 import Filter from "./Filter";
-import Fake_Data from "../Data/data";
 import Loading from "./Loading";
 import { useSelector } from "react-redux";
 
@@ -12,7 +12,6 @@ const Product = () => {
   console.log("DATA : ", DATA);
 
   useEffect(() => {
-    //fetch fake data in local
     setdata(DATA);
   }, [DATA]);
 

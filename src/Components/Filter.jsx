@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/role-has-required-aria-props */
+/* eslint-disable jsx-a11y/role-supports-aria-props */
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { BY_Like } from "./../Redux/Actions";
