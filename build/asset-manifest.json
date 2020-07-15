@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/skullcandy/static/css/main.d4a67aa2.chunk.css",
+    "main.js": "/skullcandy/static/js/main.9ab5412c.chunk.js",
+    "main.js.map": "/skullcandy/static/js/main.9ab5412c.chunk.js.map",
+    "runtime-main.js": "/skullcandy/static/js/runtime-main.3e39d4b0.js",
+    "runtime-main.js.map": "/skullcandy/static/js/runtime-main.3e39d4b0.js.map",
+    "static/js/2.0c66b253.chunk.js": "/skullcandy/static/js/2.0c66b253.chunk.js",
+    "static/js/2.0c66b253.chunk.js.map": "/skullcandy/static/js/2.0c66b253.chunk.js.map",
+    "index.html": "/skullcandy/index.html",
+    "precache-manifest.8891b48ca33dee6afd0b71c0a0c717b9.js": "/skullcandy/precache-manifest.8891b48ca33dee6afd0b71c0a0c717b9.js",
+    "service-worker.js": "/skullcandy/service-worker.js",
+    "static/css/main.d4a67aa2.chunk.css.map": "/skullcandy/static/css/main.d4a67aa2.chunk.css.map",
+    "static/js/2.0c66b253.chunk.js.LICENSE.txt": "/skullcandy/static/js/2.0c66b253.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/skullcandy/static/media/IRANSans.860ad172.ttf",
+    "static/media/T-1.jpg": "/skullcandy/static/media/T-1.3138c457.jpg",
+    "static/media/T-2.jpg": "/skullcandy/static/media/T-2.15449863.jpg",
+    "static/media/T-3.jpg": "/skullcandy/static/media/T-3.d95047b8.jpg",
+    "static/media/T-4.jpg": "/skullcandy/static/media/T-4.302a0301.jpg",
+    "static/media/T-5.jpg": "/skullcandy/static/media/T-5.39cf044e.jpg",
+    "static/media/T-6.jpg": "/skullcandy/static/media/T-6.66827852.jpg",
+    "static/media/T-7.jpg": "/skullcandy/static/media/T-7.51a91ca6.jpg",
+    "static/media/T-8.jpg": "/skullcandy/static/media/T-8.8226ded3.jpg",
+    "static/media/men.jpg": "/skullcandy/static/media/men.df8233c7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3e39d4b0.js",
+    "static/js/2.0c66b253.chunk.js",
+    "static/css/main.d4a67aa2.chunk.css",
+    "static/js/main.9ab5412c.chunk.js"
+  ]
+}
