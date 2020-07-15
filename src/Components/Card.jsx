@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaRegHeart } from "react-icons/fa";
+import { FcLike } from "react-icons/fc";
 import red from "../Images/T-Shirts/T-1.jpg";
 import yellow from "../Images/T-Shirts/T-3.jpg";
 import blue from "../Images/T-Shirts/T-8.jpg";
@@ -42,8 +42,7 @@ const Card = ({ title, image, color, price, like, buy }) => {
         </div>
 
         <p className="card_desc_like">
-          {" "}
-          <FaRegHeart /> {like}{" "}
+          <FcLike /> {like}
         </p>
       </div>
     </>
