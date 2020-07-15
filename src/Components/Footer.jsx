@@ -30,7 +30,7 @@ const Footer = () => {
             <li><a href='#'>درباره ما</a></li>
             <li><a href='#'>محافظت</a></li>
             <li><a href='#'>آماده سازی</a></li>
-            <li><a href='#'>قاب ها</a></li>
+            <li><a href='#'>سایز ها</a></li>
 
           </ul>
             
