@@ -8,9 +8,6 @@ const Header = () => {
 
   const HandleOpen = () => {
     setOpen(!open);
-  };
-
-  useEffect(() => {
     const body = document.querySelector("body");
 
     if (open) {
@@ -18,7 +15,7 @@ const Header = () => {
     } else {
       body.classList.add("body_drop_dwon_menu_class");
     }
-  }, [open]);
+  };
 
   return (
     <>
