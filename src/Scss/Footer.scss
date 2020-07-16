@@ -99,7 +99,6 @@
     &_left {
       position: relative;
 
-      //adding slant line after footer_container_info_left
       ::after {
         content: "";
         position: absolute;
@@ -200,8 +199,6 @@
       text-decoration: none;
     }
 
-    // سلام حامد جان من اینجا برای اضافه کردن خط بین 2 عنصر با سود المنت افتر مجبور شدم
-    // کلاس بدم بهش... شما ببین اگه راه بهتری هست بدون دادن کلاس به المنت افتر رو اضافه کن
     &_after::after {
       content: "";
       position: absolute;
@@ -214,5 +211,3 @@
     }
   }
 }
-
-// Everything is fine, without conflict

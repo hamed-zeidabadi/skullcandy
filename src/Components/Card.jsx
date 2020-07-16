@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import {FaRegHeart} from "react-icons/fa";
+import React, { useState } from "react";
+import { FcLike } from "react-icons/fc";
 import red from "../Images/T-Shirts/T-1.jpg";
 import yellow from "../Images/T-Shirts/T-3.jpg";
 import blue from "../Images/T-Shirts/T-8.jpg";
@@ -11,7 +11,6 @@ const Card = ({ title, image, color, price, like, buy }) => {
   return (
     <>
       <div className="card">
-
         <img
           src={Color ? Color : image}
           alt="product images"
@@ -34,23 +33,20 @@ const Card = ({ title, image, color, price, like, buy }) => {
             style={{ backgroundColor: "gray" }}
             onClick={() => setColor(gray)}
           ></div>
-
         </div>
 
         <p className="card_desc_title">{title}</p>
 
-          <div className="card_desc">
-            <p className="card_desc_price"> {price} هزار تومان </p>
-          </div>
-          
-          <p className="card_desc_like">  <FaRegHeart />  {like} </p>
-        
-        
+        <div className="card_desc">
+          <p className="card_desc_price"> {price} هزار تومان </p>
+        </div>
+
+        <p className="card_desc_like">
+          <FcLike /> {like}
+        </p>
       </div>
     </>
   );
 };
 
 export default Card;
-
-// FaRegHeart

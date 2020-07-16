@@ -23,6 +23,9 @@
 *:focus {
   outline: none;
 }
+body {
+  background-color: #eeeeee21;
+}
 
 // import Scss Module
 @import "./Header.scss";

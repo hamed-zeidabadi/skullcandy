@@ -11,10 +11,7 @@
   justify-content: space-between;
   margin-bottom: 5px;
 
-  // header_container_right
-
   &_right {
-    // border: 1px solid yellow;
     width: 50%;
     display: flex;
 
@@ -29,7 +26,7 @@
     &_nav {
       justify-content: center;
       align-self: center;
-      margin: 6px 20px 0 0; //top right bottom left
+      margin: 6px 20px 0 0;
 
       & ul {
         display: flex;
@@ -57,7 +54,7 @@
             width: 0;
             height: 2px;
             background: rgb(102, 102, 100);
-            transform-origin: center,right;
+            transform-origin: center, right;
             transition: width 0.4s;
             margin-top: 0.5px;
           }
@@ -72,25 +69,19 @@
       }
     }
 
-    // menu for responsiv size !
-
-    &_menu{
-      
+    &_menu {
       display: none;
     }
   }
 
-  // header_container_left
   &_left {
-    // border: 1px solid green;
-
     display: flex;
     justify-content: space-evenly;
 
     &_nav {
       justify-content: center;
       align-self: center;
-      margin-top: .8em;
+      margin-top: 0.8em;
 
       & ul {
         display: flex;

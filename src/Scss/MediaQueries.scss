@@ -1,34 +1,14 @@
-// امین جان سلام
-// طراحان وب سایز های مختلفی از مدیا کوئری رو استفاده میکنن و استاندارد خاصی نداره
-// ولی من بنا به تجربه و دیدن کدهای بقیه به این فایل رسیدم
-// این فایل رو بهتره توی سیستمت ذخیره داشته باشی به راحتی همه جا استفاده کنی
-// بالای هر کوئری توضیحاتشو نوشتم که برای چه دستگاهی هست
-// معمولا برای مشخص شدن یه بک گراند متفاوت هم به هر سایز دادم که بعدا پاک میکنیم
-
-//========================================================
-
-
-// کلاس برای زمانی که منو دراپ دان باز شود
-
-.body_drop_dwon_menu_class{
-
-     overflow: hidden !important;
-    height: 100% !important;
-
+.body_drop_dwon_menu_class {
+  overflow: hidden !important;
+  height: 100% !important;
 }
 
-
-
-    
 /* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
 */
 
 @media (min-width: 1281px) {
-  body {
-    background-color: red;
-  }
 }
 
 //========================================================
@@ -39,9 +19,6 @@
 */
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-  body {
-    // background-color: blue;
-  }
 }
 
 //========================================================
@@ -52,9 +29,6 @@
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  body {
-    background-color: green;
-  }
 }
 
 //========================================================
@@ -65,25 +39,12 @@
 */
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  body {
-    background-color: black;
-
-  }
-
-
-   //filter element style
-
-   .dropdown {
+  .dropdown {
     width: 35%;
-
   }
 
-  .footer_container{
-
-
-    &_sign_up_form{
-
-
+  .footer_container {
+    &_sign_up_form {
       ::after {
         content: "";
         position: absolute;
@@ -94,13 +55,10 @@
         transform-origin: 0;
         border-top: 1px solid #636364;
       }
-  
     }
 
-    &_info{
-
-      &_left{
-        
+    &_info {
+      &_left {
         ::after {
           content: "";
           position: absolute;
@@ -113,9 +71,6 @@
         }
       }
     }
-
-  
-    
   }
 }
 
@@ -127,48 +82,33 @@
 */
 
 @media (min-width: 711px) and (max-width: 767px) {
-
-  body {
-    background-color: yellow;
-    
-  }
-
-  .header_container_left_nav{
-
-    &_user{
+  .header_container_left_nav {
+    &_user {
       display: none;
     }
 
-    &_strix{
-
+    &_strix {
       display: none;
     }
   }
 
-  .header_container_right{
-
-    // width: 70%;
+  .header_container_right {
     flex-direction: row-reverse;
     justify-content: space-between;
 
-    &_nav{
-
+    &_nav {
       display: none;
     }
-    &_logo{
-
+    &_logo {
       margin-top: 0;
-
     }
 
-    &_menu{
-
+    &_menu {
       display: block;
       padding: 10px;
       position: relative;
 
-      &_items{
-
+      &_items {
         display: flex;
         position: absolute;
         flex-direction: column;
@@ -179,32 +119,22 @@
         background-color: black;
         z-index: 10;
         transition: background-color 3s linear 3s;
-}
-  
-        & li{
-          list-style: none;
-          padding: 1em;
-          border-top: 1px solid #636364;
-        }
-  
-       }
+      }
 
+      & li {
+        list-style: none;
+        padding: 1em;
+        border-top: 1px solid #636364;
+      }
+    }
   }
 
-
-   //filter element style
-
-   .dropdown {
+  .dropdown {
     width: 40%;
-
   }
 
-
-  .footer_container{
-
-    &_sign_up_form{
-
-
+  .footer_container {
+    &_sign_up_form {
       ::after {
         content: "";
         position: absolute;
@@ -215,13 +145,10 @@
         transform-origin: 0;
         border-top: 1px solid #636364;
       }
-  
     }
 
-    &_info{
-
-      &_left{
-
+    &_info {
+      &_left {
         ::after {
           content: "";
           position: absolute;
@@ -234,14 +161,8 @@
         }
       }
     }
-    
   }
-
-
- 
-
 }
-
 
 //========================================================
 
@@ -249,57 +170,37 @@
  ##Device = Low Resolution Tablets, Mobiles (Landscape)
   ##Screen = B/w 481px to 767px
 
-  **** مدیا پایین رو من اضافه کردم چون در این ابعاد برای 
-  این پروژه بهم ریختگی زیادی در فوتر داشتیم
+  **** مدیا پایین رو من اضافه کردم 
 */
 
-
 @media (min-width: 481px) and (max-width: 710px) {
-
-  body{
-    background-color: #96ec0b;
-    // overflow: hidden !important;
-    // height: 100% !important;
-  }
-
-
-  
-  .header_container_left_nav{
-
-    &_user{
+  .header_container_left_nav {
+    &_user {
       display: none;
     }
 
-    &_strix{
-
+    &_strix {
       display: none;
     }
   }
 
-  .header_container_right{
-
-    // width: 70%;
+  .header_container_right {
     flex-direction: row-reverse;
     justify-content: space-between;
 
-    &_nav{
-
+    &_nav {
       display: none;
     }
-    &_logo{
-
+    &_logo {
       margin-top: 0;
-
     }
 
-    &_menu{
-
+    &_menu {
       display: block;
       padding: 10px;
       position: relative;
 
-      &_items{
-
+      &_items {
         display: flex;
         position: absolute;
         flex-direction: column;
@@ -310,95 +211,62 @@
         background-color: black;
         z-index: 10;
         transition: background-color 3s linear 3s;
-}
-  
-        & li{
-          list-style: none;
-          padding: 1em;
-          border-top: 1px solid #636364;
-        }
-  
-       }
-      
+      }
+
+      & li {
+        list-style: none;
+        padding: 1em;
+        border-top: 1px solid #636364;
+      }
     }
+  }
 
+  .dropdown {
+    width: 44%;
+  }
 
-    //filter element style
-
-    .dropdown {
-      width: 44%;
-
-    }
-
-    
-
-  .footer_container { 
-
+  .footer_container {
     height: auto;
     flex-direction: column;
     justify-content: center;
-    padding: .5em;
+    padding: 0.5em;
 
-
-    &_sign_up{
-
+    &_sign_up {
       align-items: center;
       border-bottom: 1px solid #636364;
-      padding:1em;
-     
+      padding: 1em;
 
-      &_form{
-
+      &_form {
         ::after {
           display: none;
         }
-
       }
-    
-  
     }
 
-    &_info{
-
+    &_info {
       align-items: center;
       border-bottom: 1px solid #636364;
       width: auto;
-      padding:1em;
-     
+      padding: 1em;
 
-
-      &_left{
-
+      &_left {
         ::after {
-        
           display: none;
         }
       }
     }
 
-    &_social_media{
-
+    &_social_media {
       align-items: center;
       padding: 1em;
     }
-
   }
 
-
-
-
-  .footer_base_container{
-
+  .footer_base_container {
     flex-wrap: wrap;
     justify-content: center;
   }
-
-  }
-  
-
-  
-
-
+}
 
 //========================================================
 
@@ -408,49 +276,34 @@
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-  body {
-    background-color: gray;
-  }
-
-
-
-  .header_container_left_nav{
-
-    &_user{
+  .header_container_left_nav {
+    &_user {
       display: none;
     }
 
-    &_strix{
-
+    &_strix {
       display: none;
     }
   }
 
-  .header_container_right{
-
+  .header_container_right {
     // width: 70%;
     flex-direction: row-reverse;
     justify-content: space-between;
 
-
-    &_nav{
-
+    &_nav {
       display: none;
     }
-    &_logo{
-
+    &_logo {
       margin-top: 0;
-
     }
 
-    &_menu{
-
+    &_menu {
       display: block;
       padding: 10px;
       position: relative;
 
-      &_items{
-
+      &_items {
         display: flex;
         position: absolute;
         flex-direction: column;
@@ -461,89 +314,59 @@
         background-color: black;
         z-index: 10;
         transition: background-color 3s linear 3s;
-}
-  
-        & li{
-          list-style: none;
-          padding: 1em;
-          border-top: 1px solid #636364;
-        }
-  
-       }
+      }
 
+      & li {
+        list-style: none;
+        padding: 1em;
+        border-top: 1px solid #636364;
+      }
+    }
   }
 
-
-   //filter element style
-
-   .dropdown {
+  .dropdown {
     width: 50%;
-
   }
 
-
-
-
-
-  .footer_container { 
-
+  .footer_container {
     height: auto;
     flex-direction: column;
     justify-content: center;
-    padding: .5em;
+    padding: 0.5em;
 
-
-    &_sign_up{
-
+    &_sign_up {
       align-items: center;
       border-bottom: 1px solid #636364;
-      padding:1em;
-     
+      padding: 1em;
 
-      &_form{
-
+      &_form {
         ::after {
           display: none;
         }
-
       }
-    
-  
     }
 
-    &_info{
-
+    &_info {
       align-items: center;
       border-bottom: 1px solid #636364;
       width: auto;
-      padding:1em;
-     
+      padding: 1em;
 
-
-      &_left{
-
+      &_left {
         ::after {
-        
           display: none;
         }
       }
     }
 
-    &_social_media{
-
+    &_social_media {
       align-items: center;
       padding: 1em;
     }
-
   }
 
-
-
-  .footer_base_container{
-
+  .footer_base_container {
     flex-wrap: wrap;
     justify-content: center;
   }
-
-
 }
